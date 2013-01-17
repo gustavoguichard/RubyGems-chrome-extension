@@ -1,4 +1,4 @@
 $(document).ready ->
   $("form").submit ->
-    apply($('#search').val(), false)
+    apply($('#search').val().toLowerCase(), false)
     false
